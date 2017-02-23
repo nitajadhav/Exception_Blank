@@ -33,7 +33,7 @@ public class StudentScheduler {
 	void generateReport(int rollNumber) {
 		for (int i = 0; i < studentCounter; i++) {
 			if (rollNumber == (students[i].rollNumber)) {
-				System.out.println("Courses enrolled by roll number: " + rollNumber + " are ");
+				System.out.println("Courses enrolled by roll number is: " + rollNumber + " are ");
 				displayCourseName(students[i]);
 			}
 		}
